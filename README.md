@@ -1,14 +1,10 @@
-untidy - XML Fuzzer
-===================
+# untidy - XML Fuzzer
 
-More info at
-============
+This project was orignally hosted at http://untidy.sourceforge.net/
 
-http://untidy.sourceforge.net/
+# Usage
 
-Usage
-=====
-
+```py
 import untidy
 
 xmlString = '<xml attr1="a"><a>f00!</a></xml>'
@@ -19,13 +15,12 @@ iter = xf.fuzz( xmlString )
 
 for i in iter:
      print i
+```
 
-License
-=======
+# License
 
-GPL v2
+GPL v2 (See `LICENCE` file)
 
-Credits
-=======
+# Credits
 
 andres =dot= riancho @ gmail !dot! com
